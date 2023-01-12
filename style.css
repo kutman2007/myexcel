@@ -1,0 +1,55 @@
+input {
+    border: none;
+    width: 80px;
+    font-size: 14px;
+    padding: 2px;
+}
+
+input:hover {
+    background-color: #eee;
+}
+
+input:focus {
+    background-color: #ccf;
+}
+
+input:not(:focus) {
+    text-align: right;
+}
+
+table {
+    width: 1500px;
+    height: 540px;
+    border-collapse: collapse;  
+}
+
+td {
+    border: 1px solid #999;
+    padding: 0;
+}
+
+tr:first-child td, td:first-child {
+    background-color: #ccc;
+    padding: 1px 3px;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.close{
+    width: 40px;
+    position: absolute;
+    left: 1400px;
+}
+.ok{
+    width: 50px;
+    position: absolute;
+    left: 1330px;
+   top: 11px;
+}
+.center,.left,.a,.t,.r{
+    margin-left: 20px;
+}
